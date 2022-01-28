@@ -91,7 +91,7 @@ const Header = (disableItems = {}) => () => {
       props: { className: tableColumnClasses[6] },
     },
     {
-      title: i18next.t('console-app~Created at'),
+      title: i18next.t('console-app~Created'),
       sortField: 'metadata.creationTimeStamp',
       transforms: [sortable],
       props: { className: tableColumnClasses[7] },
