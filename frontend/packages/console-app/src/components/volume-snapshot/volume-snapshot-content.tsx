@@ -105,7 +105,7 @@ const VolumeSnapshotContentTable: React.FC = (props) => {
         props: { className: tableColumnClasses[4] },
       },
       {
-        title: t('console-app~Created'),
+        title: t('console-app~Created at'),
         sortField: 'metadata.creationTimeStamp',
         transforms: [sortable],
         props: { className: tableColumnClasses[5] },
